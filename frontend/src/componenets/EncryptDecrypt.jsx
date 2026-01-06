@@ -122,12 +122,7 @@ const EncryptDecrypt = () => {
             <span>Characters: {input.length}</span>
           </div>
 
-          {/* <input
-            type="number"
-            value={shift}
-            onChange={(e) => setShift(Number(e.target.value))}
-            placeholder="Shift key (Caesar Cipher)"
-          /> */}
+         
 
           <div className="action-row">
             <button onClick={handleBase64} disabled={!input}>
